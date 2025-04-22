@@ -1,0 +1,59 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.box {
+  border: 5px solid rgba(36, 11, 11, 0.253);
+  width: 100%;
+  height: fit-content;
+  margin-left: 5px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.box .card {
+  min-width: 200px;
+  height: fit-content;
+  margin: 10px;
+  border-radius: 10%;
+  border: 4px solid black;
+}
+
+.for {
+  margin: 5px;
+}
+.for .button {
+  border-radius: 10px;
+}
+.for .butt {
+  margin-left: 85px;
+  border-radius: 10px;
+}
+.for .but {
+  margin-left: 100px;
+  border-radius: 10px;
+}
+
+.friend .secure .mr {
+  border-radius: 10px;
+}
+.friend .secure .wr {
+  margin-left: 23px;
+  border-radius: 10px;
+}
+.friend .wks {
+  margin-left: 100px;
+}
+.friend .mutual {
+  margin-left: 110px;
+  margin-top: -65px;
+}
+.friend .mutual .con {
+  border-radius: 5px;
+}
+.friend .mutual .del {
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=facebook.css.map */

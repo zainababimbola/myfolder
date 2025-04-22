@@ -1,0 +1,63 @@
+#parent{
+    display: flex;
+}
+.ball{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transition: all 1s;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    display: flex;
+    animation-name: zainab;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    border-radius: 100%;
+}
+
+@keyframes zainab{
+    0%{
+        transform: translate(300px);
+    }
+    20%{
+        transform: rotate(360deg);
+    
+    }
+    80%{
+        background-color: brown;
+    }
+    100%{
+        transform:skew(10deg);
+    }
+}
+.ball2{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    transition: all 3s;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    display: flex;
+    animation-name: omolayo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 100%;
+}
+
+@keyframes omolayo{
+    0%{
+        transform: translate(300px);
+    }
+    40%{
+        transform: rotate(360deg);
+    
+    }
+    60%{
+        background-color: red;
+    }
+    100%{
+        transform:skew(10deg);
+    }
+}

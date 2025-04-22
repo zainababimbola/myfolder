@@ -1,0 +1,26 @@
+.main {
+  position: sticky;
+  margin-top: 0px;
+  top: -40px;
+  left: 0px;
+  z-index: 1;
+}
+.main .nav {
+  background-color: black !important;
+  height: 70px !important;
+  color: white !important;
+}
+
+.holder .tab-content {
+  top: 5px !important;
+}
+.holder .fa {
+  margin-right: 40px;
+}
+.holder .img-circle {
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+}
+
+/*# sourceMappingURL=mobile.css.map */

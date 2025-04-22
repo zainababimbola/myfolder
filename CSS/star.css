@@ -1,0 +1,121 @@
+.star{
+    position: relative;
+    margin-left: 700px;
+    margin-top: 150px;
+    animation-name: star;
+    animation-duration: 10s; 
+    animation-iteration-count: infinite;
+
+}
+.triangle{
+    border-bottom: 100px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 0;
+    /* animation-name: star;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+}
+.triangle2{
+    border-bottom: 100px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 0;
+    transform: rotate(180deg);
+    /* animation-name: star;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; top: 85px; */
+}
+.triangle3{
+    border-bottom: 100px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 0;
+    transform: rotate(-280deg);
+    top: 40px;
+    left: 40px;
+    position: absolute;
+    /* animation-name: star;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+}
+.triangle4{
+    border-bottom: 100px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 0;
+    transform: rotate(280deg);
+    top: 40px;
+    left: -40px;
+    position: absolute;
+    /* animation-name: star;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; */
+}
+
+@keyframes star{
+      20%{
+        background-color:  solid orange;
+        transform: translateY(40px);
+      }
+      40%{
+        transform: translateZ(10px);
+        background-color:  solid  yellow;
+      }
+      60%{
+        background-color: solid green;
+      }
+      80%{
+        transform: translateX(50px);
+        background-color:  solid  blue;
+      }
+      100%{
+        transform: skew(10deg); 
+        background-color: solid  brown; 
+      } 
+}
+.circle{
+    position: relative;
+    margin: 50px;
+    box-shadow: 0px 0px 3px blue;
+    height: 600px;
+    width: 400px;
+}
+.ball{
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px black;
+    height: 200px;
+    width: 200px;
+    border: 5px dotted blue;
+    animation-name: circle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.ball2{
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px brown ;
+    height: 200px;
+    width: 200px;
+    border: 5px dashed black;
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes circle{
+    0%{
+      transform: rotate(0deg);
+    }
+    
+    
+    100%{
+      transform: rotate(360deg);
+      
+      /* transform: translate(50px ); */
+    }
+    
+}

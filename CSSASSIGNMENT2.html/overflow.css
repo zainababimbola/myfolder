@@ -1,0 +1,89 @@
+/* .header{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow:  0px 40px 2px black ,0px 80px 3px red ;  */
+
+
+.hover:hover{
+    color: green;
+    font-weight: bold;
+    font-size: 45px;
+
+
+}
+/* .circle1{
+    /* position: absolute; */
+    /* width: 150; */
+    /* height: 150; */
+    /* border-radius: 100%; */
+    /* border:1px solid black; */
+    /* box-shadow: 0px 40px black 0px 80px red; */ */
+/* }
+.circle2{
+    position: absolute;
+    width: 150;
+    height: 150;
+    border-radius: 100%;
+    border:1px solid black;
+    background-color: black;
+    bottom:10%;
+}
+.circle3{
+    position: absolute;
+    width: 150;
+    height: 150;
+    border-radius: 100%;
+    border:1px solid black;
+    background-color: red;
+    bottom: 0%;
+}
+.circle4{
+    position: absolute;
+    width: 150;
+    height: 150;
+    border-radius: 100%;
+    border:1px solid black;
+    background-color: black;
+    left: 300;
+}
+.circle5{
+    position: absolute;
+    width: 150;
+    height: 150;
+    border-radius: 100%;
+    border:1px solid black;
+    background-color: white;
+    left: 300;
+    bottom: 15%;
+
+
+}
+.circle6{
+    position: absolute;
+    width: 150;
+    height: 150;
+    border-radius: 100%;
+    border:1px solid black;
+    background-color: black;
+    left: 300;
+    bottom: 20%;
+}
+.circle7{
+    position: absolute;
+    width: 150;
+    height: 150;
+    border-radius: 100%;
+    border:1px solid rgb(75, 33, 33); */
+
+
+/* } */
+.circle{
+    position: absolute;
+    width: 150;
+    height: 150;
+    border-radius: 100%;
+    border:1px solid black;
+
+}

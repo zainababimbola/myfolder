@@ -1,0 +1,24 @@
+.box1{
+    text-align: center;
+    height: 380px;
+    width: 1000px;
+    border: 1px dashed black ; 
+}
+.box2{
+    text-align: center;
+    height: 250px;
+    width: 800px;
+    border: 30px solid rgb(127, 230, 127); 
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-right: 600px;
+}
+.box3{
+    text-align: ;
+    height: 150px;
+    width: 650px;
+    border: 1px dashed black;
+    margin-left: 80px; 
+    margin-top: 15px;
+    margin-bottom: 300px;
+} 
